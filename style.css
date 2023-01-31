@@ -21,19 +21,27 @@ body {
    width: 200px;
    border-radius: 100px;
   }
+   
+  main h1 {
+    text-align: center;
+    margin: 20px;
+  }
 
-  section p {
-   margin: 20px;
-   width: 90px;
+  .text {
+   margin: 5px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
    
   }
-
-  main {
-    justify-content: center;
-    align-items: center;
-    align-items: center;
+  
+  section p {
+    width: 50vw;
+    text-align: justify;
+    margin: 20px;
 
   }
+
   ul {
     display: flex;
     justify-content:space-evenly;    
@@ -47,3 +55,4 @@ body {
   footer {
 
   }
+  
