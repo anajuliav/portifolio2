@@ -2,13 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: sans-serif;
+    list-style-type: none;
   }
+
+body {
+  margin: 40px;
+  background-color: #A99F96;
+}
 
   header {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
-  img {
+
+  header img {
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+  }
+
+  section p {
+   margin: 20px;
+   width: 90px;
+   
+  }
+
+  main {
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+  }
+  ul {
+    display: flex;
+    justify-content:space-evenly;    
+    margin: 40px;
+  }
+
+  ul img {
+    height: 60px;
+  }
+
+  footer {
 
   }
