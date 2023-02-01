@@ -3,56 +3,57 @@
     padding: 0;
     box-sizing: border-box; 
     font-family: sans-serif;
-    list-style-type: none;
   }
 
 body {
-  margin: 40px;
   background-color: #A99F96;
+  display: flex;
+  justify-content: space-around;
+
 }
 
-  header {
-    display: flex;
-    justify-content: center;
-  }
+.header {
+ border:solid none;
+ width: 20vw;
+ height:100vh;
+ text-align: center;
+ background-color: rgb(85, 66, 66);
+ color: rgb(10, 10, 10);
+ 
+ 
+}
 
-  header img {
-   height: 200px;
-   width: 200px;
-   border-radius: 100px;
-  }
-   
-  main h1 {
-    text-align: center;
-    margin: 20px;
-  }
-
-  .text {
-   margin: 5px;
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   
-  }
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 70px;
   
-  section p {
-    width: 50vw;
-    text-align: justify;
-    margin: 20px;
+}
 
-  }
+.lorem{
+ 
+}
 
-  ul {
-    display: flex;
-    justify-content:space-evenly;    
-    margin: 40px;
-  }
+.git{
+ height: 70px;
+ border-radius: 70px;
+ margin: 150px;
+ 
+}
 
-  ul img {
-    height: 60px;
-  }
+h1 {
+  margin: 20px;
+  font-size: 50px;
+}
 
-  footer {
-
-  }
-  
+.row1 {
+ 
+}
+.conteiner {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  justify-content: center;
+  margin: 70px;
+}
