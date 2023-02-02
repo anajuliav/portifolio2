@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 body {
-  background-color: #A99F96;
+  background-color: #14080E;
+  opacity: 1.5;
   display: flex;
-  justify-content: space-around;
-
+  color:#BDBBB6;
+  
 }
 
 .header {
  border:solid none;
  width: 20vw;
  height:100vh;
+ justify-content: center;
  text-align: center;
- background-color: rgb(85, 66, 66);
- color: rgb(10, 10, 10);
- 
+ background-color: #3D7068;
+ margin-left: 200px;
+ display: grid;
  
 }
 
@@ -27,33 +30,85 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 100px;
-  margin: 70px;
+  margin:60px;
+    
+}
+
+
+.oi {
+  margin: 20px;
   
 }
-
-.lorem{
+.git{
+ height:55px;
+ border-radius: 60px;
  
 }
 
-.git{
- height: 70px;
- border-radius: 70px;
- margin: 150px;
- 
+.github {
+  height: 50px;
+  border-radius: 60px;
+
+}
+
+.icon{
+  text-align: center;
+  margin: 70px;
+  display: flex;
+  justify-content:space-evenly;
+
 }
 
 h1 {
   margin: 20px;
   font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration:wavy;
+
 }
 
-.row1 {
+.css {
+ height: 200px;
  
 }
 .conteiner {
-  display: flex;
-  justify-content: space-around;
+  
+  align-items: center;
   text-align: center;
-  justify-content: center;
   margin: 70px;
+  gap: 100px;
+  border: solid;
+
 }
+
+.row1{
+padding: 30px;
+
+}
+
+.row2 {
+  
+  height: 300px;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: wavy;
+
+}
+.nome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+  
+
+
+
+
+ 
