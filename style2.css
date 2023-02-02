@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+body {
+  background-color: #1d1e2c;
+  opacity: 1.5;
+  display: flex;
+  color:#FFF;
+  justify-content: space-evenly;
+}
+
+header {
+ width: 25vw;
+ justify-content: center;
+ text-align: center;
+ background-color: #3D7068;
+ margin-left: 100px;
+ display: grid;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin:60px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:wavy;
+}
+
+header p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.social{
+    height:40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    padding: 15px;
+    text-align: center;
+    margin: 70px;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    border: solid;
+    margin-right: 100px;
+    width: 50vw;
+}
+
+.row1{
+    margin-bottom: 15px;
+    
+}
+.row1 p {
+    text-align: justify;
+    margin: 0 60px;
+}
+
+.eliti {
+    margin: 30px 0 0 0 ;
+    height: 130px;
+    border-radius: 65px;
+}
+
+.row2 {
+    margin: 15px;
+}
+
+.row2 h2 {
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: wavy;
+}
+
+.css {
+    height: 130px;
+    margin: 5px 30px;
+}
