@@ -17,11 +17,13 @@ body {
 
 header {
  width: 25vw;
+ height: 100vh;
  justify-content: center;
  text-align: center;
  background-color: #3D7068;
  margin-left: 100px;
- display: grid;
+ 
+
 }
 
 .profile {
@@ -34,12 +36,13 @@ header {
 header h1 {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
-    text-decoration:wavy;
 }
 
 header p {
     text-align: justify;
     padding: 0 20px;
+    margin-top: 10px;
+    
 }
 
 .social{
@@ -48,18 +51,17 @@ header p {
 
 .icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 200px;
 }
 
 main{
     padding: 15px;
     text-align: center;
-    margin: 70px;
-    justify-content:space-evenly;
+    margin: 70px ;
     align-items: center;
     text-align: center;
-    margin: 30px;
-    border: solid;
+    border: solid black;
     margin-right: 100px;
     width: 50vw;
 }
@@ -71,6 +73,7 @@ main{
 .row1 p {
     text-align: justify;
     margin: 0 60px;
+    margin-top: 15px;
 }
 
 .eliti {
@@ -87,10 +90,33 @@ main{
     margin: 30px 0;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    text-decoration: wavy;
+   
 }
 
 .css {
-    height: 130px;
+    height: 90px;
     margin: 5px 30px;
 }
+
+.desc {
+    margin-top: 50px;
+
+}
+
+.desc h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    font-size: 30px;
+    
+   
+}
+
+ul {
+ list-style: none;
+ margin-top: 20px;
+ display: flex;
+ justify-content: space-evenly;
+ text-align: center;
+ 
+}
+
